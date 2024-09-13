@@ -1,0 +1,40 @@
+.bodyBg {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#score {
+    display: inline-block;
+}
+
+div {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+.game-over-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #000;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
